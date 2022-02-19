@@ -6,7 +6,7 @@ import CreateStory from "../screens/CreateStory";
 
 const Tab = createBottomTabNavigator();
 
-export default class BottomTabNavigatorextends React.Component {
+export default class BottomTabNavigator extends React.Component {
     render(){
     return (
         <Tab.Navigator
