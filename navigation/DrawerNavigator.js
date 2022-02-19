@@ -16,4 +16,4 @@ export default class DrawerNavigator extends React.Component {
     )
 };
 
-export default DrawerNavigator;
+
