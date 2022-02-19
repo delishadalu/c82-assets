@@ -6,7 +6,8 @@ import CreateStory from "../screens/CreateStory";
 
 const Tab = createBottomTabNavigator();
 
-const BottomTabNavigator = () => {
+export default class BottomTabNavigatorextends React.Component {
+    render(){
     return (
         <Tab.Navigator
             screenOptions={({ route }) => ({
@@ -32,5 +33,5 @@ const BottomTabNavigator = () => {
         </Tab.Navigator>
     );
 }
+}
 
-export default BottomTabNavigator
